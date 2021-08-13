@@ -114,10 +114,10 @@ extension MainViewController {
     }
     
     func fetchCourses() {
-        self.courseArray.append(Course(lesson_number: "lesson 1", lesson_title: "statistics", lesson_video: "https://www.youtube.com/watch?v=vHZPeohPHqo", lesson_description: "", is_quiz: false, isWated: true))
-        self.courseArray.append(Course(lesson_number: "lesson 2", lesson_title: "Trignometry", lesson_video: "https://www.youtube.com/watch?v=zwv5Xm93egM", lesson_description: "", is_quiz: false, isWated: true))
-        self.courseArray.append(Course(lesson_number: "lesson 3", lesson_title: "Probability 1", lesson_video: "https://www.youtube.com/watch?v=TAavlpk2Uuk", lesson_description: "", is_quiz: false, isWated: true))
-        self.courseArray.append(Course(lesson_number: "lesson 4", lesson_title: "Probability 2", lesson_video: "https://www.youtube.com/watch?v=Ke7Tr4RgRTs", lesson_description: "", is_quiz: false, isWated: true))
+        self.courseArray.append(Course(lesson_number: "lesson 1", lesson_title: "statistics", lesson_video: "https://firebasestorage.googleapis.com/v0/b/code-coast-1562525387986.appspot.com/o/website%2FCodeCoast_HD_720.mov?alt=media&token=8e9f7a67-6df8-4f74-8b2d-b44eb5591109", lesson_description: "", is_quiz: false, isWated: true))
+        self.courseArray.append(Course(lesson_number: "lesson 2", lesson_title: "Trignometry", lesson_video: "https://firebasestorage.googleapis.com/v0/b/code-coast-1562525387986.appspot.com/o/website%2FMy%20Video.mp4?alt=media&token=ecc01329-a3d5-4bfa-8faf-fc89f0710bf4", lesson_description: "", is_quiz: false, isWated: true))
+        self.courseArray.append(Course(lesson_number: "lesson 3", lesson_title: "Probability 1", lesson_video: "https://firebasestorage.googleapis.com/v0/b/code-coast-1562525387986.appspot.com/o/website%2Fpreview2_converted.mp4?alt=media&token=ac6c2a3e-088b-4dbc-92cb-05e8b1fecbc1", lesson_description: "", is_quiz: false, isWated: true))
+        self.courseArray.append(Course(lesson_number: "lesson 4", lesson_title: "Probability 2", lesson_video: "https://firebasestorage.googleapis.com/v0/b/code-coast-1562525387986.appspot.com/o/website%2Fshort_video.mp4?alt=media&token=0715768e-a044-4743-aa5d-9d2c22367d65", lesson_description: "", is_quiz: false, isWated: true))
         self.courseArray.append(Course(lesson_number: "lesson 5", lesson_title: "1st Class Exercise", lesson_video: "https://www.youtube.com/watch?v=eoSDHSQIg_Y", lesson_description: "", is_quiz: false, isWated: true))
         self.courseArray.append(Course(lesson_number: "Quiz", lesson_title: "Sets", lesson_video: "https://www.youtube.com/watch?v=1rJwcGIYBlA", lesson_description: "", is_quiz: false, isWated: false))
         self.courseArray.append(Course(lesson_number: "lesson 7", lesson_title: "Triangles", lesson_video: "https://www.youtube.com/watch?v=s8kDg2G0VDg", lesson_description: "", is_quiz: false, isWated: false))

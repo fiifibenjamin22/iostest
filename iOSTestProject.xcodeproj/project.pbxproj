@@ -23,7 +23,6 @@
 		47F0CC5C26C692F100716E0D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F0CC5B26C692F100716E0D /* Video.swift */; };
 		47F0CC6126C697E800716E0D /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F0CC6026C697E800716E0D /* Course.swift */; };
 		47F0CC6526C6C66D00716E0D /* courses.json in Sources */ = {isa = PBXBuildFile; fileRef = 47F0CC6426C6C66D00716E0D /* courses.json */; };
-		47F0CC6726C6C84200716E0D /* jsonData.json in Resources */ = {isa = PBXBuildFile; fileRef = 47F0CC6626C6C84200716E0D /* jsonData.json */; };
 		47F0CC6926C6C89F00716E0D /* courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F0CC6826C6C89F00716E0D /* courses.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +66,6 @@
 		47F0CC5B26C692F100716E0D /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		47F0CC6026C697E800716E0D /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		47F0CC6426C6C66D00716E0D /* courses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = courses.json; sourceTree = "<group>"; };
-		47F0CC6626C6C84200716E0D /* jsonData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jsonData.json; sourceTree = "<group>"; };
 		47F0CC6826C6C89F00716E0D /* courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,7 +126,6 @@
 				47F0CC2326C4ABBF00716E0D /* LaunchScreen.storyboard */,
 				47F0CC2626C4ABBF00716E0D /* Info.plist */,
 				47F0CC6426C6C66D00716E0D /* courses.json */,
-				47F0CC6626C6C84200716E0D /* jsonData.json */,
 			);
 			path = iOSTestProject;
 			sourceTree = "<group>";
@@ -303,7 +300,6 @@
 			files = (
 				47F0CC2526C4ABBF00716E0D /* LaunchScreen.storyboard in Resources */,
 				47F0CC2226C4ABBF00716E0D /* Assets.xcassets in Resources */,
-				47F0CC6726C6C84200716E0D /* jsonData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

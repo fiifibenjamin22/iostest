@@ -86,14 +86,17 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
 
     func playContent(url: String) {
+        player?.pause()
         guard let videoUrl = URL(string: url) else { return }
         player = AVPlayer(url: videoUrl)
+        playerView.backgroundColor = .white
         
+        print(videoUrl)
         let playerLayer = AVPlayerLayer(player: player)
         self.playerView.layer.addSublayer(playerLayer)
-        playerLayer.frame = self.playerView.frame
-        
+        playerLayer.frame = CGRect(x: 0, y: -70, width: self.view.frame.width, height: (self.view.frame.height / 2) - 0)
         player?.play()
+        
     }
 }
 
